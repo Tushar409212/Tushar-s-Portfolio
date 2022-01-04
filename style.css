@@ -39,6 +39,12 @@ h2{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
 .experience-item{
     width: 40%;
     margin-left: 5%;
@@ -46,5 +52,20 @@ h2{
     padding-left: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
+    /* border-left: 10px solid; */
 
+
+}
+#exp1{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(105, 49, 42), tomato);
+    border-image-slice: 1;
+}
+#exp2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
